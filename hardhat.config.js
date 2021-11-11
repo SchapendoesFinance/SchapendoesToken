@@ -13,7 +13,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 const { removeConsoleLog } = require("hardhat-preprocessor")
 
 const accounts = {
-mnemonic: process.env.MNEMONIC || "memory figure spray legal unique matter minute spider such move cement below",
+mnemonic: process.env.MNEMONIC || "your mnemonic phrase here",
     accountsBalance: "990000000000000000000",
 };
 
